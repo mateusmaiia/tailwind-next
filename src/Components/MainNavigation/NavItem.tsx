@@ -16,7 +16,7 @@ export function NavItem({ name, icon: Icon }: Props) {
       <span className="font-medium text-zinc-700 group-hover:text-violet-500 ">
         {name}
       </span>
-      <ChevronDown className="h-5 w-5 ml-auto  text-zinc-400 group-hover:text-violet-300" />
+      <ChevronDown className="h-5 w-5 ml-auto text-zinc-400 group-hover:text-violet-300" />
     </a>
   )
 }
