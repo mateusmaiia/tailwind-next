@@ -9,8 +9,8 @@ export function UsedSpaceWidget() {
           Your team has used 80% of oyour available space. Need more?
         </p>
       </div>
-      <div className="h-2 rounded-full bg-violet-100">
-        <div className="h2 w-4/5 rounded full bg-violet-500"></div>
+      <div className="h-2 rounded bg-violet-100">
+        <div className="h-2 w-4/5 rounded full bg-violet-500"></div>
       </div>
 
       <div className="space-x-3">
