@@ -13,7 +13,7 @@ export function Profile() {
         <span className="text-sm  text-zinc-500">mateusssmaia@gmail.com</span>
       </div>
 
-      <button type="button" className="ml-auto">
+      <button type="button" className="ml-auto rounded-md p-2 hover:bg-zinc-50">
         <LogOut className="w-5 h-5 text-zinc-500" />
       </button>
     </div>
