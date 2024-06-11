@@ -1,6 +1,14 @@
-import { Search } from 'lucide-react'
+import {
+  BarChart,
+  CheckSquare,
+  Flag,
+  HomeIcon,
+  Search,
+  SquareStack,
+  Users,
+} from 'lucide-react'
 import { Logo } from './Logo'
-import { MainNavigation } from '../MainNavigation'
+import { NavItem } from '../MainNavigation/NavItem'
 
 export function Sidebar() {
   return (
@@ -14,7 +22,14 @@ export function Sidebar() {
           placeholder="Search"
         />
       </div>
-      <MainNavigation />
+      <nav className="space-y-0.5">
+        <NavItem name="Home" icon={HomeIcon} />
+        <NavItem name="Dashboard" icon={BarChart} />
+        <NavItem name="Projects" icon={SquareStack} />
+        <NavItem name="Tasks" icon={CheckSquare} />
+        <NavItem name="Reporting" icon={Flag} />
+        <NavItem name="Users" icon={Users} />
+      </nav>
       <div className="mt-auto">kldsjmlkdsa</div>
     </aside>
   )
