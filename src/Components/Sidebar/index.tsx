@@ -40,6 +40,7 @@ export function Sidebar() {
         </nav>
         <UsedSpaceWidget />
       </div>
+      <div className="h-px bg-zinc-200"></div>
     </aside>
   )
 }
