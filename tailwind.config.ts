@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        app: '320px 1fr',
+        app: 'minmax(18rem, 20rem) 1fr',
       },
       colors: {
         maia: '#8257e6',
